@@ -226,6 +226,12 @@ a,button,[onclick],.desk-icon,.sm-i,.xb,.ms-face,.mc,.fi,.mct{cursor:url("data:i
 .xptabs{display:flex;border-bottom:2px solid #ACA899;background:#D4D0C8;padding:2px 4px 0;gap:2px;}
 .xptab{padding:3px 12px;background:#D4D0C8;border:1px solid #ACA899;border-bottom:none;border-radius:3px 3px 0 0;margin-bottom:-1px;}
 .xptab.active{background:#ECE9D8;border-bottom:2px solid #ECE9D8;position:relative;}
+
+/* MOBILE: keep windows on-screen */
+@media (max-width:700px){
+  .xw{left:4px!important;top:4px!important;width:calc(100vw - 8px)!important;height:calc(100vh - 44px)!important;}
+  .xw .xc{max-height:calc(100% - 60px)!important;}
+}
 </style>
 </head>
 <body>
@@ -263,7 +269,7 @@ a,button,[onclick],.desk-icon,.sm-i,.xb,.ms-face,.mc,.fi,.mct{cursor:url("data:i
   <div class="b-logo">Windows <em>XP</em></div>
   <div class="b-ed">Professional</div>
   <div class="b-dots"><div class="b-dot"></div><div class="b-dot"></div><div class="b-dot"></div><div class="b-dot"></div><div class="b-dot"></div></div>
-  <div class="b-copy">Copyright &copy; Microsoft Corporation 2001&ndash;2009. All rights reserved.</div>
+  <div class="b-copy">A Windows XP&ndash;style portfolio by Abdul Rehman Faisal. Not affiliated with Microsoft.</div>
 </div>
 
 <!-- WELCOME -->
@@ -370,18 +376,18 @@ a,button,[onclick],.desk-icon,.sm-i,.xb,.ms-face,.mc,.fi,.mct{cursor:url("data:i
     <div style="margin-bottom:10px">
       <span class="xpchip"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2048%2048%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22trf%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23ffe07a%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23d4a020%22/%3E%3C/linearGradient%3E%3C/defs%3E%20%3Cpath%20d%3D%22M16%2C10%20L32%2C10%20L31%2C22%20Q31%2C28%2024%2C28%20Q17%2C28%2017%2C22%20Z%22%20fill%3D%22url%28%23trf%29%22%20stroke%3D%22%23b8860b%22%20stroke-width%3D%221%22/%3E%20%3Cpath%20d%3D%22M16%2C12%20L11%2C12%20Q9%2C12%209%2C15%20Q9%2C20%2016%2C21%22%20fill%3D%22none%22%20stroke%3D%22%23b8860b%22%20stroke-width%3D%222%22/%3E%20%3Cpath%20d%3D%22M32%2C12%20L37%2C12%20Q39%2C12%2039%2C15%20Q39%2C20%2032%2C21%22%20fill%3D%22none%22%20stroke%3D%22%23b8860b%22%20stroke-width%3D%222%22/%3E%20%3Crect%20x%3D%2222%22%20y%3D%2228%22%20width%3D%224%22%20height%3D%226%22%20fill%3D%22%23c8960c%22/%3E%20%3Crect%20x%3D%2217%22%20y%3D%2234%22%20width%3D%2214%22%20height%3D%224%22%20rx%3D%221%22%20fill%3D%22url%28%23trf%29%22%20stroke%3D%22%23b8860b%22%20stroke-width%3D%221%22/%3E%20%3Cpath%20d%3D%22M24%2C14%20L25.5%2C17%20L29%2C17%20L26%2C19%20L27%2C22%20L24%2C20%20L21%2C22%20L22%2C19%20L19%2C17%20L22.5%2C17%20Z%22%20fill%3D%22%23fff%22%20opacity%3D%220.6%22/%3E%20%3C/svg%3E" style="width:13px;height:13px"> BS Data Science &mdash; GIKI</span>
       <span class="xpchip"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2048%2048%22%3E%20%3Cdefs%3E%3CradialGradient%20id%3D%22net%22%20cx%3D%220.4%22%20cy%3D%220.35%22%20r%3D%220.7%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23aee0ff%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%232b7fd0%22/%3E%3C/radialGradient%3E%3C/defs%3E%20%3Crect%20x%3D%2210%22%20y%3D%2230%22%20width%3D%2212%22%20height%3D%229%22%20rx%3D%221%22%20fill%3D%22%23e0e4e8%22%20stroke%3D%22%23888%22%20stroke-width%3D%221%22/%3E%20%3Crect%20x%3D%2212%22%20y%3D%2232%22%20width%3D%228%22%20height%3D%225%22%20fill%3D%22%235a9fd4%22/%3E%20%3Ccircle%20cx%3D%2232%22%20cy%3D%2218%22%20r%3D%2211%22%20fill%3D%22url%28%23net%29%22%20stroke%3D%22%231a5a9e%22%20stroke-width%3D%221%22/%3E%20%3Cpath%20d%3D%22M21%2C18%20L43%2C18%20M32%2C7%20Q26%2C18%2032%2C29%20M32%2C7%20Q38%2C18%2032%2C29%22%20stroke%3D%22%23fff%22%20stroke-width%3D%220.8%22%20fill%3D%22none%22%20opacity%3D%220.7%22/%3E%20%3Cpath%20d%3D%22M22%2C28%20L16%2C30%22%20stroke%3D%22%237fb84f%22%20stroke-width%3D%222%22/%3E%20%3C/svg%3E" style="width:13px;height:13px"> Lahore, Pakistan</span>
-      <span class="xpchip"> Germany Internship</span>
+      <span class="xpchip"> 2 Internships</span>
     </div>
     <p style="margin-bottom:10px;line-height:1.6">Results-driven Data Science undergraduate specialising in analytics, machine learning, and pipeline automation. I extract actionable insights from complex datasets and translate them into business value.</p>
     <div class="kpi-wrap">
-      <div class="kpi"><div class="kpi-num">7</div><div class="kpi-lbl">Research Papers</div></div>
-      <div class="kpi"><div class="kpi-num">5+</div><div class="kpi-lbl">Major Projects</div></div>
-      <div class="kpi"><div class="kpi-num">99.9%</div><div class="kpi-lbl">Best Model Acc.</div></div>
+      <div class="kpi"><div class="kpi-num">2</div><div class="kpi-lbl">Internships</div></div>
+      <div class="kpi"><div class="kpi-num">6+</div><div class="kpi-lbl">Projects</div></div>
+      <div class="kpi"><div class="kpi-num">0.75</div><div class="kpi-lbl">Churn ROC-AUC</div></div>
     </div>
     <div class="h2">System Information</div>
     <div class="irow"><span class="ilbl">University</span><span class="ival">GIKI, Topi, Pakistan</span></div>
     <div class="irow"><span class="ilbl">Degree</span><span class="ival">BS Data Science &mdash; 2023 to Present</span></div>
-    <div class="irow"><span class="ilbl">Internship</span><span class="ival">Univ. of Europe, Potsdam (2025)</span></div>
+    <div class="irow"><span class="ilbl">Internships</span><span class="ival">Systems Limited, Lahore (2026) &middot; Univ. of Europe, Potsdam (2025)</span></div>
     <div class="irow"><span class="ilbl">Target Role</span><span class="ival">Data Analyst / DS Intern</span></div>
     <div class="irow"><span class="ilbl">Email</span><span class="ival"><a class="lnk" href="mailto:arehman092004@gmail.com">arehman092004@gmail.com</a></span></div>
     <div style="margin-top:14px;display:flex;gap:6px;flex-wrap:wrap">
@@ -400,14 +406,15 @@ a,button,[onclick],.desk-icon,.sm-i,.xb,.ms-face,.mc,.fi,.mct{cursor:url("data:i
   <div class="xmb"><span>File</span><span>Edit</span><span>View</span><span>Help</span></div>
   <div class="xc" style="max-height:calc(100% - 50px)">
     <div class="h1">Technical Projects</div>
-    <div class="card"><h3>Sales &amp; Revenue EDA Dashboard</h3><p>End-to-end EDA on multi-store retail sales &mdash; seasonal trends, revenue anomalies, cohort analysis via SQL, Tableau dashboard tracking 12 KPIs across 4 regions.</p><div><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Pandas</span><span class="tag">Tableau</span><span class="tag">Seaborn</span></div><div style="color:#316AC5;font-size:10px;margin-top:5px">March 2026</div></div>
-    <div class="card"><h3>Global Water Crisis &mdash; Narrative Visualization</h3><p>30-country dataset (water access, GDP, mortality). Interactive D3.js scrollytelling with choropleth maps, scatter plots, trend lines. DS-451 course project.</p><div><span class="tag">Python</span><span class="tag">D3.js</span><span class="tag">SQL</span><span class="tag">Pandas</span></div><div style="color:#316AC5;font-size:10px;margin-top:5px">May 2026</div></div>
-    <div class="card"><h3>Churn Predictor</h3><p>Customer churn classification &mdash; Scikit-learn, feature engineering, cross-validation, automated pipeline, SQL cohort segmentation.</p><div><span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">SQL</span></div><div style="color:#316AC5;font-size:10px;margin-top:5px">Nov 2025 &ndash; Jan 2026</div></div>
+    <div class="card"><h3>Risk Radar &mdash; Churn Intelligence</h3><p>Leak-free churn prediction on 400K+ retail transactions: features from history, label from the next 60 days. 4 models with 5-fold stratified CV, best test ROC-AUC 0.746. Flags ~GBP 985K revenue at risk with per-customer reasons. <a class="lnk" href="https://github.com/ARFaisal-Rehman/Churn-Predictor" target="_blank">Code</a></p><div><span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">XGBoost</span><span class="tag">Flask</span></div><div style="color:#316AC5;font-size:10px;margin-top:5px">2025 &ndash; 2026</div></div>
+    <div class="card"><h3>Customer Behaviour Analytics (DS-341)</h3><p>Classification, K-Means segmentation and Apriori rules on UK e-commerce data. Found and fixed label leakage (1.0 to an honest 0.71 ROC-AUC); 10x-lift product pairs turned into bundle ideas. <a class="lnk" href="https://github.com/ARFaisal-Rehman/ds341-customer-analytics" target="_blank">Code</a></p><div><span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">K-Means</span><span class="tag">Apriori</span></div><div style="color:#316AC5;font-size:10px;margin-top:5px">Dec 2025</div></div>
+    <div class="card"><h3>Global Water Crisis &mdash; Narrative Visualization</h3><p>30-country dataset (water access, GDP, mortality). Interactive D3.js scrollytelling with choropleth maps, scatter plots, trend lines. DS-451 course project. <a class="lnk" href="https://arfaisal-rehman.github.io/DS-451-Project/" target="_blank">Live story</a></p><div><span class="tag">Python</span><span class="tag">D3.js</span><span class="tag">Pandas</span></div><div style="color:#316AC5;font-size:10px;margin-top:5px">May 2026</div></div>
+    <div class="card"><h3>GIKIVault &mdash; Campus Cloud on AWS</h3><p>Team lead. Event-driven pipeline: scheduled Lambdas pull 3 public APIs into SQS, processed into RDS PostgreSQL, served via EC2/ALB and API Gateway with Cognito auth and CloudWatch alarms. <a class="lnk" href="https://github.com/ARFaisal-Rehman/GIKI-Vault" target="_blank">Architecture</a></p><div><span class="tag">AWS</span><span class="tag">Lambda</span><span class="tag">SQS</span><span class="tag">RDS</span></div><div style="color:#316AC5;font-size:10px;margin-top:5px">Fall 2024</div></div>
     <div class="card"><h3>SoundMate &mdash; AI Playlist Generator</h3><p>Mood-aware playlist generator. NLP sentiment analysis + Spotify API for real-time personalised recommendations.</p><div><span class="tag">Django</span><span class="tag">Spotify API</span><span class="tag">NLP</span></div><div style="color:#316AC5;font-size:10px;margin-top:5px">Nov&ndash;Dec 2025</div></div>
     <div class="card"><h3>Luminate &mdash; AI Career Counselor</h3><p>Semantic skill-matching via NLP. Flask + React + PostgreSQL with engagement analytics and stakeholder reporting.</p><div><span class="tag">Flask</span><span class="tag">React</span><span class="tag">PostgreSQL</span><span class="tag">NLP</span></div><div style="color:#316AC5;font-size:10px;margin-top:5px">Mar&ndash;Apr 2024</div></div>
     <div style="text-align:center;margin-top:10px"><a href="https://github.com/ARFaisal-Rehman" target="_blank"><button style="padding:4px 12px;background:linear-gradient(180deg,#fff,#ECE9D8);border:1px solid #7F9DB9">View All on GitHub</button></a></div>
   </div>
-  <div class="xst"><div class="xstf">5 objects</div></div>
+  <div class="xst"><div class="xstf">6 objects</div></div>
   <div class="rh" onmousedown="resz(event,'win-projects')"></div>
 </div>
 
@@ -444,9 +451,14 @@ a,button,[onclick],.desk-icon,.sm-i,.xb,.ms-face,.mc,.fi,.mct{cursor:url("data:i
   <div class="xc" style="max-height:calc(100% - 72px)">
     <div class="h1">Work Experience</div>
     <div class="card" style="border-left:4px solid #316AC5">
-      <div style="display:flex;justify-content:space-between;margin-bottom:6px"><div><h3 style="font-size:13px">Research Intern &mdash; AI &amp; Data Science</h3><div style="color:#316AC5;font-weight:bold">University of Europe for Applied Sciences</div><div style="color:#888;font-size:10px">Potsdam, Germany</div></div><div style="text-align:right;color:#666;font-size:10px;white-space:nowrap">May 2025<br>&ndash; Aug 2025</div></div>
-      <ul style="padding-left:14px;line-height:1.8"><li>CV models achieving <strong>99.93% validation accuracy</strong> &mdash; 60%+ error reduction</li><li>Automated ETL pipelines cutting data prep time by <strong>~70%</strong></li><li>Large-scale EDA using SQL &amp; Pandas</li><li>Authored analytical reports for cross-institutional teams</li></ul>
-      <div style="margin-top:6px"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Pandas</span><span class="tag">TensorFlow</span><span class="tag">ETL</span></div>
+      <div style="display:flex;justify-content:space-between;margin-bottom:6px"><div><h3 style="font-size:13px">Data Analytics Intern</h3><div style="color:#316AC5;font-weight:bold">Systems Limited</div><div style="color:#888;font-size:10px">Lahore, Pakistan</div></div><div style="text-align:right;color:#666;font-size:10px;white-space:nowrap">Jun 2026<br>&ndash; Aug 2026</div></div>
+      <ul style="padding-left:14px;line-height:1.8"><li>Wrote SQL to query, transform and check data</li><li>Built ETL workflows in SQL Server Integration Services (SSIS)</li></ul>
+      <div style="margin-top:6px"><span class="tag">SQL</span><span class="tag">SSIS</span><span class="tag">ETL</span></div>
+    </div>
+    <div class="card" style="border-left:4px solid #316AC5">
+      <div style="display:flex;justify-content:space-between;margin-bottom:6px"><div><h3 style="font-size:13px">Research Intern &mdash; AI &amp; Data Science</h3><div style="color:#316AC5;font-weight:bold">University of Europe for Applied Sciences</div><div style="color:#888;font-size:10px">Potsdam, Germany</div></div><div style="text-align:right;color:#666;font-size:10px;white-space:nowrap">Jun 2025<br>&ndash; Aug 2025</div></div>
+      <ul style="padding-left:14px;line-height:1.8"><li>Project: <em>Deep Learning for Acne Detection: A Computer Vision-Based Approach for Dermatological Assistance</em></li><li>Implemented the code: preprocessing, augmentation and CNN models (MobileNetV2, ResNet); ~87% detection accuracy</li><li>Drafted the project report and research paper</li><li>Contributed code and analysis to other projects in the research group</li></ul>
+      <div style="margin-top:6px"><span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">Computer Vision</span></div>
     </div>
     <div class="h2">Leadership &amp; Activities</div>
     <div class="card"><h3>Treasurer &mdash; SPIE.OPTICA GIKI Chapter</h3><p>Budget management, corporate sponsorships, stakeholder liaison. Sep 2023 &ndash; Present.</p></div>
@@ -461,17 +473,17 @@ a,button,[onclick],.desk-icon,.sm-i,.xb,.ms-face,.mc,.fi,.mct{cursor:url("data:i
   <div class="xtb" onmousedown="sd(event,'win-research')"><img class="xti" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2048%2048%22%3E%20%3Cpath%20d%3D%22M20%2C8%20L28%2C8%20L28%2C20%20L34%2C36%20Q35%2C40%2030%2C40%20L18%2C40%20Q13%2C40%2014%2C36%20L20%2C20%20Z%22%20fill%3D%22%23bfe0f5%22%20stroke%3D%22%233a7ad0%22%20stroke-width%3D%221.5%22/%3E%20%3Cpath%20d%3D%22M20%2C24%20L28%2C24%20L31%2C33%20L17%2C33%20Z%22%20fill%3D%22%235ab0e0%22%20opacity%3D%220.8%22/%3E%20%3Crect%20x%3D%2218%22%20y%3D%226%22%20width%3D%2212%22%20height%3D%223%22%20rx%3D%221%22%20fill%3D%22%235a6470%22/%3E%20%3Ccircle%20cx%3D%2222%22%20cy%3D%2229%22%20r%3D%221.5%22%20fill%3D%22%23fff%22%20opacity%3D%220.7%22/%3E%20%3Ccircle%20cx%3D%2226%22%20cy%3D%2231%22%20r%3D%221%22%20fill%3D%22%23fff%22%20opacity%3D%220.7%22/%3E%20%3C/svg%3E"><span class="xtt">Research Contributions</span><div class="xtbs"><div class="xb" onclick="mnW('win-research')">&#x2013;</div><div class="xb" onclick="mxW('win-research')">&#x25A1;</div><div class="xb cl" onclick="clW('win-research')">&#x2715;</div></div></div>
   <div class="xmb"><span>File</span><span>Help</span></div>
   <div class="xc" style="max-height:calc(100% - 50px)">
-    <div class="h1">Research Contributions</div>
-    <p style="color:#666;font-style:italic;margin-bottom:10px">Contributed as researcher/developer. Co-authored and presented by collaborators &mdash; GIKI &times; University of Europe for Applied Sciences, 2025.</p>
-    <div class="rli"><h4>Retail Sales Forecasting: Hierarchical Ensemble Framework</h4><p>Voronevics F., Khan T.A., Faisal A.R. et al. &mdash; 11% MAPE reduction</p></div>
-    <div class="rli"><h4>Fashion Recommendation System Using Deep Learning</h4><p>Nagori M.A., Khan T.A., Faisal A.R. et al.</p></div>
-    <div class="rli"><h4>Wildfire Detection Using Satellite Images (EfficientNetV2-S)</h4><p>Ali R.H., Faisal A.R. et al. &mdash; 97.54% accuracy</p></div>
-    <div class="rli"><h4>Real-Time ASL Alphabet Recognition Using Lightweight CNN</h4><p>Mahoro R.S., Faisal A.R. et al. &mdash; 99.93% accuracy</p></div>
-    <div class="rli"><h4>Hate Speech Detection Using a BERT-Based Classifier</h4><p>Cortez M., Faisal A.R. et al.</p></div>
-    <div class="rli"><h4>Deep Learning for Acne Detection &mdash; CV Dermatology</h4><p>Padinjare B., Faisal A.R. et al. &mdash; 87% accuracy</p></div>
-    <div class="rli"><h4>N-Queens Problem: Exhaustive, Local &amp; Optimization Algorithms</h4><p>Chen B., Imad M., Faisal A.R. et al.</p></div>
+    <div class="h1">Research Projects</div>
+    <p style="color:#666;font-style:italic;margin-bottom:10px">Research projects from the 2025 Potsdam internship (GIKI &times; University of Europe for Applied Sciences) that I contributed code and analysis to, alongside the student and faculty authors.</p>
+    <div class="rli"><h4>Deep Learning for Acne Detection: A Computer Vision-Based Approach</h4><p>My internship project &mdash; implementation, report and paper draft. ~87% detection accuracy.</p></div>
+    <div class="rli"><h4>Retail Sales Forecasting: Hierarchical Ensemble Framework</h4><p>Multi-store forecasting with a hierarchical ensemble</p></div>
+    <div class="rli"><h4>Fashion Recommendation System Using Deep Learning</h4><p>Image-based recommendations with deep learning</p></div>
+    <div class="rli"><h4>Wildfire Detection Using Satellite Images (EfficientNetV2-S)</h4><p>Satellite image classification with EfficientNetV2-S</p></div>
+    <div class="rli"><h4>Real-Time ASL Alphabet Recognition Using Lightweight CNN</h4><p>Lightweight CNN for real-time recognition</p></div>
+    <div class="rli"><h4>Hate Speech Detection Using a BERT-Based Classifier</h4><p>Transformer-based text classification</p></div>
+    <div class="rli"><h4>N-Queens Problem: Exhaustive, Local &amp; Optimization Algorithms</h4><p>Exhaustive, local search and optimisation approaches compared</p></div>
   </div>
-  <div class="xst"><div class="xstf">7 research contributions</div></div>
+  <div class="xst"><div class="xstf">7 research projects</div></div>
   <div class="rh" onmousedown="resz(event,'win-research')"></div>
 </div>
 
@@ -501,8 +513,8 @@ a,button,[onclick],.desk-icon,.sm-i,.xb,.ms-face,.mc,.fi,.mct{cursor:url("data:i
     <div class="irow"><span class="ilbl">GitHub</span><span class="ival"><a class="lnk" href="https://github.com/ARFaisal-Rehman" target="_blank">ARFaisal-Rehman</a></span></div>
     <div class="irow"><span class="ilbl">Location</span><span class="ival">Lahore, Pakistan</span></div>
     <div class="h2" style="margin-top:12px">Send a Message</div>
-    <div style="margin-bottom:6px"><label style="display:block;font-weight:bold;margin-bottom:2px">Your Name</label><input type="text" style="width:100%;padding:3px 5px;border:1px solid #7F9DB9;font-family:Tahoma,sans-serif;font-size:11px"></div>
-    <div style="margin-bottom:8px"><label style="display:block;font-weight:bold;margin-bottom:2px">Message</label><textarea rows="3" style="width:100%;padding:3px 5px;border:1px solid #7F9DB9;font-family:Tahoma,sans-serif;font-size:11px;resize:vertical"></textarea></div>
+    <div style="margin-bottom:6px"><label style="display:block;font-weight:bold;margin-bottom:2px">Your Name</label><input id="cm-name" type="text" style="width:100%;padding:3px 5px;border:1px solid #7F9DB9;font-family:Tahoma,sans-serif;font-size:11px"></div>
+    <div style="margin-bottom:8px"><label style="display:block;font-weight:bold;margin-bottom:2px">Message</label><textarea id="cm-msg" rows="3" style="width:100%;padding:3px 5px;border:1px solid #7F9DB9;font-family:Tahoma,sans-serif;font-size:11px;resize:vertical"></textarea></div>
     <div style="display:flex;gap:6px"><button onclick="sendMsg()" style="padding:4px 12px;background:linear-gradient(180deg,#fff,#ECE9D8);border:1px solid #7F9DB9">Send</button><button onclick="clW('win-contact')" style="padding:4px 12px;background:linear-gradient(180deg,#fff,#ECE9D8);border:1px solid #7F9DB9">Cancel</button></div>
   </div>
   <div class="xst"><div class="xstf">Ready</div></div>
@@ -526,8 +538,8 @@ this desktop - here is what to open:
 
   My Documents > About Me     (who I am)
   My Documents > Projects     (analytics work)
-  My Documents > Experience   (Germany internship)
-  My Documents > Research     (7 AI/ML papers)
+  My Documents > Experience   (Systems Ltd + Germany)
+  My Documents > Research     (7 research projects)
   My Documents > Contact.msg  (let's connect!)
 
 And yes... Minesweeper is fully playable.
@@ -547,7 +559,7 @@ linkedin.com/in/abdul-rehman-faisal-2a680b297
 <div class="xw" id="win-ie" style="width:580px;height:460px;top:55px;left:90px">
   <div class="xtb" onmousedown="sd(event,'win-ie')"><img class="xti" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2048%2048%22%3E%20%3Cdefs%3E%3CradialGradient%20id%3D%22ieb%22%20cx%3D%220.4%22%20cy%3D%220.35%22%20r%3D%220.7%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237fd0ff%22/%3E%3Cstop%20offset%3D%220.5%22%20stop-color%3D%22%231a8fe0%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230a4f9e%22/%3E%3C/radialGradient%3E%3C/defs%3E%20%3Cellipse%20cx%3D%2224%22%20cy%3D%2224%22%20rx%3D%2219%22%20ry%3D%2217%22%20fill%3D%22url%28%23ieb%29%22/%3E%20%3Cellipse%20cx%3D%2224%22%20cy%3D%2224%22%20rx%3D%2219%22%20ry%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23063a78%22%20stroke-width%3D%221%22/%3E%20%3Cpath%20d%3D%22M14%2C26%20Q14%2C17%2024%2C17%20Q34%2C17%2034%2C24%20L24%2C24%20Q21%2C24%2021%2C27%20Q21%2C31%2026%2C31%20Q31%2C31%2033%2C28%20L36%2C31%20Q32%2C36%2025%2C36%20Q14%2C36%2014%2C26%20Z%22%20fill%3D%22%23fff%22/%3E%20%3Cpath%20d%3D%22M30%2C11%20Q40%2C9%2043%2C15%20Q45%2C20%2038%2C27%20Q41%2C18%2036%2C14%20Q33%2C12%2030%2C13%20Z%22%20fill%3D%22%23ffd24a%22%20stroke%3D%22%23e0a020%22%20stroke-width%3D%220.5%22/%3E%20%3Cellipse%20cx%3D%2222%22%20cy%3D%2216%22%20rx%3D%229%22%20ry%3D%223%22%20fill%3D%22%23fff%22%20opacity%3D%220.35%22/%3E%20%3C/svg%3E"><span class="xtt">Abdul Rehman Faisal &mdash; Portfolio &mdash; Microsoft Internet Explorer</span><div class="xtbs"><div class="xb" onclick="mnW('win-ie')">&#x2013;</div><div class="xb" onclick="mxW('win-ie')">&#x25A1;</div><div class="xb cl" onclick="clW('win-ie')">&#x2715;</div></div></div>
   <div class="xmb"><span>File</span><span>Edit</span><span>View</span><span>Favorites</span><span>Tools</span><span>Help</span></div>
-  <div class="xnb" style="height:32px"><div class="xnbt" style="opacity:.4">&#x25C4;</div><div class="xnbt" style="opacity:.4">&#x25BA;</div><div class="xnbt" onclick="ieRefresh()">&#x21BA;</div><div class="xnbt">&#x2302;</div><div class="xaddr" style="flex:1"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2048%2048%22%3E%20%3Cdefs%3E%3CradialGradient%20id%3D%22ieb%22%20cx%3D%220.4%22%20cy%3D%220.35%22%20r%3D%220.7%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237fd0ff%22/%3E%3Cstop%20offset%3D%220.5%22%20stop-color%3D%22%231a8fe0%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230a4f9e%22/%3E%3C/radialGradient%3E%3C/defs%3E%20%3Cellipse%20cx%3D%2224%22%20cy%3D%2224%22%20rx%3D%2219%22%20ry%3D%2217%22%20fill%3D%22url%28%23ieb%29%22/%3E%20%3Cellipse%20cx%3D%2224%22%20cy%3D%2224%22%20rx%3D%2219%22%20ry%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23063a78%22%20stroke-width%3D%221%22/%3E%20%3Cpath%20d%3D%22M14%2C26%20Q14%2C17%2024%2C17%20Q34%2C17%2034%2C24%20L24%2C24%20Q21%2C24%2021%2C27%20Q21%2C31%2026%2C31%20Q31%2C31%2033%2C28%20L36%2C31%20Q32%2C36%2025%2C36%20Q14%2C36%2014%2C26%20Z%22%20fill%3D%22%23fff%22/%3E%20%3Cpath%20d%3D%22M30%2C11%20Q40%2C9%2043%2C15%20Q45%2C20%2038%2C27%20Q41%2C18%2036%2C14%20Q33%2C12%2030%2C13%20Z%22%20fill%3D%22%23ffd24a%22%20stroke%3D%22%23e0a020%22%20stroke-width%3D%220.5%22/%3E%20%3Cellipse%20cx%3D%2222%22%20cy%3D%2216%22%20rx%3D%229%22%20ry%3D%223%22%20fill%3D%22%23fff%22%20opacity%3D%220.35%22/%3E%20%3C/svg%3E">&nbsp;<span style="color:#0A246A">http://portfolio.abdulrehman.pk/index.html</span></div><div class="xnbt" style="width:36px;font-size:10px">Go</div><div id="ie-globe" style="width:24px;height:24px;margin-left:2px;flex-shrink:0"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2048%2048%22%3E%20%3Cdefs%3E%3CradialGradient%20id%3D%22ieb%22%20cx%3D%220.4%22%20cy%3D%220.35%22%20r%3D%220.7%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237fd0ff%22/%3E%3Cstop%20offset%3D%220.5%22%20stop-color%3D%22%231a8fe0%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230a4f9e%22/%3E%3C/radialGradient%3E%3C/defs%3E%20%3Cellipse%20cx%3D%2224%22%20cy%3D%2224%22%20rx%3D%2219%22%20ry%3D%2217%22%20fill%3D%22url%28%23ieb%29%22/%3E%20%3Cellipse%20cx%3D%2224%22%20cy%3D%2224%22%20rx%3D%2219%22%20ry%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23063a78%22%20stroke-width%3D%221%22/%3E%20%3Cpath%20d%3D%22M14%2C26%20Q14%2C17%2024%2C17%20Q34%2C17%2034%2C24%20L24%2C24%20Q21%2C24%2021%2C27%20Q21%2C31%2026%2C31%20Q31%2C31%2033%2C28%20L36%2C31%20Q32%2C36%2025%2C36%20Q14%2C36%2014%2C26%20Z%22%20fill%3D%22%23fff%22/%3E%20%3Cpath%20d%3D%22M30%2C11%20Q40%2C9%2043%2C15%20Q45%2C20%2038%2C27%20Q41%2C18%2036%2C14%20Q33%2C12%2030%2C13%20Z%22%20fill%3D%22%23ffd24a%22%20stroke%3D%22%23e0a020%22%20stroke-width%3D%220.5%22/%3E%20%3Cellipse%20cx%3D%2222%22%20cy%3D%2216%22%20rx%3D%229%22%20ry%3D%223%22%20fill%3D%22%23fff%22%20opacity%3D%220.35%22/%3E%20%3C/svg%3E" style="width:22px;height:22px"></div></div>
+  <div class="xnb" style="height:32px"><div class="xnbt" style="opacity:.4">&#x25C4;</div><div class="xnbt" style="opacity:.4">&#x25BA;</div><div class="xnbt" onclick="ieRefresh()">&#x21BA;</div><div class="xnbt">&#x2302;</div><div class="xaddr" style="flex:1"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2048%2048%22%3E%20%3Cdefs%3E%3CradialGradient%20id%3D%22ieb%22%20cx%3D%220.4%22%20cy%3D%220.35%22%20r%3D%220.7%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237fd0ff%22/%3E%3Cstop%20offset%3D%220.5%22%20stop-color%3D%22%231a8fe0%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230a4f9e%22/%3E%3C/radialGradient%3E%3C/defs%3E%20%3Cellipse%20cx%3D%2224%22%20cy%3D%2224%22%20rx%3D%2219%22%20ry%3D%2217%22%20fill%3D%22url%28%23ieb%29%22/%3E%20%3Cellipse%20cx%3D%2224%22%20cy%3D%2224%22%20rx%3D%2219%22%20ry%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23063a78%22%20stroke-width%3D%221%22/%3E%20%3Cpath%20d%3D%22M14%2C26%20Q14%2C17%2024%2C17%20Q34%2C17%2034%2C24%20L24%2C24%20Q21%2C24%2021%2C27%20Q21%2C31%2026%2C31%20Q31%2C31%2033%2C28%20L36%2C31%20Q32%2C36%2025%2C36%20Q14%2C36%2014%2C26%20Z%22%20fill%3D%22%23fff%22/%3E%20%3Cpath%20d%3D%22M30%2C11%20Q40%2C9%2043%2C15%20Q45%2C20%2038%2C27%20Q41%2C18%2036%2C14%20Q33%2C12%2030%2C13%20Z%22%20fill%3D%22%23ffd24a%22%20stroke%3D%22%23e0a020%22%20stroke-width%3D%220.5%22/%3E%20%3Cellipse%20cx%3D%2222%22%20cy%3D%2216%22%20rx%3D%229%22%20ry%3D%223%22%20fill%3D%22%23fff%22%20opacity%3D%220.35%22/%3E%20%3C/svg%3E">&nbsp;<span style="color:#0A246A">https://arfaisal-rehman.github.io/Portfolio/</span></div><div class="xnbt" style="width:36px;font-size:10px">Go</div><div id="ie-globe" style="width:24px;height:24px;margin-left:2px;flex-shrink:0"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2048%2048%22%3E%20%3Cdefs%3E%3CradialGradient%20id%3D%22ieb%22%20cx%3D%220.4%22%20cy%3D%220.35%22%20r%3D%220.7%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237fd0ff%22/%3E%3Cstop%20offset%3D%220.5%22%20stop-color%3D%22%231a8fe0%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230a4f9e%22/%3E%3C/radialGradient%3E%3C/defs%3E%20%3Cellipse%20cx%3D%2224%22%20cy%3D%2224%22%20rx%3D%2219%22%20ry%3D%2217%22%20fill%3D%22url%28%23ieb%29%22/%3E%20%3Cellipse%20cx%3D%2224%22%20cy%3D%2224%22%20rx%3D%2219%22%20ry%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23063a78%22%20stroke-width%3D%221%22/%3E%20%3Cpath%20d%3D%22M14%2C26%20Q14%2C17%2024%2C17%20Q34%2C17%2034%2C24%20L24%2C24%20Q21%2C24%2021%2C27%20Q21%2C31%2026%2C31%20Q31%2C31%2033%2C28%20L36%2C31%20Q32%2C36%2025%2C36%20Q14%2C36%2014%2C26%20Z%22%20fill%3D%22%23fff%22/%3E%20%3Cpath%20d%3D%22M30%2C11%20Q40%2C9%2043%2C15%20Q45%2C20%2038%2C27%20Q41%2C18%2036%2C14%20Q33%2C12%2030%2C13%20Z%22%20fill%3D%22%23ffd24a%22%20stroke%3D%22%23e0a020%22%20stroke-width%3D%220.5%22/%3E%20%3Cellipse%20cx%3D%2222%22%20cy%3D%2216%22%20rx%3D%229%22%20ry%3D%223%22%20fill%3D%22%23fff%22%20opacity%3D%220.35%22/%3E%20%3C/svg%3E" style="width:22px;height:22px"></div></div>
   <div style="background:#ECE9D8;border-bottom:1px solid #ACA899;padding:2px 6px;display:flex;gap:10px;align-items:center;height:22px;font-size:11px"><span class="lnk" style="cursor:pointer" onclick="openW('projects')">Projects</span><span class="lnk" style="cursor:pointer" onclick="openW('experience')">Experience</span><span class="lnk" style="cursor:pointer" onclick="openW('research')">Research</span><span class="lnk" style="cursor:pointer" onclick="openW('contact')">Contact</span></div>
   <div class="xc" style="max-height:calc(100% - 124px);background:#fff">
     <div style="background:linear-gradient(135deg,#0A246A,#316AC5);padding:18px;margin:-10px -10px 14px;color:#fff">
@@ -555,17 +567,17 @@ linkedin.com/in/abdul-rehman-faisal-2a680b297
       <div style="font-size:12px;opacity:.85">Data Science Undergraduate &nbsp;&middot;&nbsp; Analytics &nbsp;&middot;&nbsp; Machine Learning &nbsp;&middot;&nbsp; Research</div>
     </div>
     <div class="kpi-wrap" style="margin-bottom:14px">
-      <div class="kpi"><div class="kpi-num">7</div><div class="kpi-lbl">Research Papers</div></div>
-      <div class="kpi"><div class="kpi-num">5+</div><div class="kpi-lbl">Projects</div></div>
-      <div class="kpi"><div class="kpi-num">99.9%</div><div class="kpi-lbl">Best Accuracy</div></div>
-      <div class="kpi"><div class="kpi-num">1</div><div class="kpi-lbl">Intl. Internship</div></div>
+      <div class="kpi"><div class="kpi-num">2</div><div class="kpi-lbl">Internships</div></div>
+      <div class="kpi"><div class="kpi-num">6+</div><div class="kpi-lbl">Projects</div></div>
+      <div class="kpi"><div class="kpi-num">0.75</div><div class="kpi-lbl">Churn ROC-AUC</div></div>
+      <div class="kpi"><div class="kpi-num">7</div><div class="kpi-lbl">Research Projects</div></div>
     </div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
       <div class="card" onclick="openW('about')" style="cursor:pointer"><h3>About Me</h3><p>Profile, background, and goals.</p></div>
       <div class="card" onclick="openW('projects')" style="cursor:pointer"><h3>Projects</h3><p>Data analytics and ML work.</p></div>
       <div class="card" onclick="openW('skills')" style="cursor:pointer"><h3>Skills</h3><p>Technical proficiency.</p></div>
-      <div class="card" onclick="openW('experience')" style="cursor:pointer"><h3>Experience</h3><p>International internship.</p></div>
-      <div class="card" onclick="openW('research')" style="cursor:pointer"><h3>Research</h3><p>7 paper contributions.</p></div>
+      <div class="card" onclick="openW('experience')" style="cursor:pointer"><h3>Experience</h3><p>Systems Limited and Potsdam.</p></div>
+      <div class="card" onclick="openW('research')" style="cursor:pointer"><h3>Research</h3><p>7 research projects.</p></div>
       <div class="card" onclick="openW('certif')" style="cursor:pointer"><h3>Certificates</h3><p>Deloitte, McKinsey.</p></div>
     </div>
     <div style="text-align:center;margin-top:12px;padding-top:10px;border-top:1px solid #D4D0C8"><a href="mailto:arehman092004@gmail.com" style="margin-right:8px"><button style="padding:4px 10px;background:linear-gradient(180deg,#fff,#ECE9D8);border:1px solid #7F9DB9">Email Me</button></a><a href="https://github.com/ARFaisal-Rehman" target="_blank"><button style="padding:4px 10px;background:linear-gradient(180deg,#fff,#ECE9D8);border:1px solid #7F9DB9">GitHub</button></a></div>
@@ -709,7 +721,7 @@ function dlg(title,msg,ico,hasConf){S.p('error');document.getElementById('dlgtit
 function closeDlg(){document.getElementById('dlgov').classList.remove('open');}
 function doLogoff(){document.getElementById('smenu').classList.remove('open');S.p('logoff');setTimeout(()=>{document.getElementById('desktop').style.transition='opacity 1.2s';document.getElementById('desktop').style.opacity='0';document.getElementById('taskbar').style.opacity='0';setTimeout(()=>location.reload(),1400);},200);}
 function doShutdown(){document.getElementById('smenu').classList.remove('open');dlg('Turn Off Computer','Are you sure you want to turn off this computer?','&#x26A0;&#xFE0F;',true);}
-function sendMsg(){S.p('notify');dlg('Message Sent','Thanks! You can also reach Abdul directly at:<br><strong>arehman092004@gmail.com</strong>','&#x2705;');}
+function sendMsg(){var n=(document.getElementById('cm-name')||{}).value||'',m=(document.getElementById('cm-msg')||{}).value||'';if(!m.trim()){dlg('Message','Please type a message first.','&#x26A0;');return;}S.p('notify');window.location.href='mailto:arehman092004@gmail.com?subject='+encodeURIComponent('Portfolio message'+(n?' from '+n:''))+'&body='+encodeURIComponent(m);dlg('Opening your email app','Your message has been placed in a new email to <strong>arehman092004@gmail.com</strong>. Just press Send there.','&#x2709;');}
 
 const MR=9,MC=9,MM=10;let msB,msR,msF,msGO,msFirst,msTm,msTiv;
 function initMS(){clearInterval(msTiv);msTm=0;document.getElementById('msti').textContent='000';document.getElementById('msface').innerHTML='&#x1F642;';document.getElementById('msm').textContent='010';msB=Array.from({length:MR},()=>Array(MC).fill(0));msR=Array.from({length:MR},()=>Array(MC).fill(false));msF=Array.from({length:MR},()=>Array(MC).fill(false));msGO=false;msFirst=true;renderMS();}
